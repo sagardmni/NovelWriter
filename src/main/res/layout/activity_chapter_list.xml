@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.damani.novelwriter.ChapterListActivity">
+    <ListView
+        android:id="@+id/chapter_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_chapter_button"
+        android:background="#97baec"
+        android:onClick="onClickNewChapter"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done_button"
+        android:background="#97baec"
+        android:onClick="onClickDone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button"
+        android:background="#97baec"
+        android:onClick="onClickDeleteNovel"/>
+</LinearLayout>

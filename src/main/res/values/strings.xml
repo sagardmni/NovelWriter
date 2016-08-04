@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NovelWriter</string>
+    <string name="add_new_novel_button">Add New Novel</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add_new_chapter_button">Add New Chapter</string>
+    <string name="title_prompt">Enter Title</string>
+    <string name="done_button">Done</string>
+    <string name="delete_button">Delete</string>
+</resources>
