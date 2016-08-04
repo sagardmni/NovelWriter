@@ -6,5 +6,5 @@
     <string name="add_new_chapter_button">Add New Chapter</string>
     <string name="title_prompt">Enter Title</string>
     <string name="done_button">Done</string>
-    <string name="delete_button">Delete</string>
+    <string name="delete_novel_button">Delete Novel</string>
 </resources>

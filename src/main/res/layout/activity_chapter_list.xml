@@ -19,12 +19,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/done_button"
-        android:background="#97baec"
+        android:background="#1bbc0f"
         android:onClick="onClickDone"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/delete_button"
-        android:background="#97baec"
+        android:text="@string/delete_novel_button"
+        android:background="#98071c"
         android:onClick="onClickDeleteNovel"/>
 </LinearLayout>

@@ -50,6 +50,9 @@ public class AddChapterActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this,ChapterListActivity.class);
+        Bundle b = new Bundle();
+        b.putInt(NovelListActivity.NOVEL_KEY,novelId);
+        intent.putExtras(b);
         startActivity(intent);
         finish();
     }
